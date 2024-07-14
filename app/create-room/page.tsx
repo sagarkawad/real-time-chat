@@ -28,9 +28,10 @@ export default function CreateRoom() {
         />
 
         <button
-          onClick={() =>
-            setAllRoomsDetails((prevRooms) => [...prevRooms, userRoomDetails])
-          }
+          onClick={() => {
+            setAllRoomsDetails((prevRooms) => [...prevRooms, userRoomDetails]);
+            console.log(AllRooms);
+          }}
         >
           Create a Room
         </button>

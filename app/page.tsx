@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex flex-col justify-center items-center min-h-48">
       <h1>Welcome to room-chat-app</h1>
-      <div className="flex justify-around items-around">
+      <div className="flex justify-around items-around bg-red-400 w-screen">
         <Link href="/rooms" className="mr-4">
           Show chat rooms
         </Link>
